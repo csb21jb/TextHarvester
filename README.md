@@ -1,4 +1,7 @@
-# DocExtractor
+![image](https://github.com/csb21jb/TextHarvester/assets/94072917/90e08671-0733-4a71-b2ba-207aac5f5f68)
+
+
+# TextHarvester
 
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -24,18 +27,23 @@
 ### Setup Instructions
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/docextractor.git
-    cd docextractor
+    git clone https://github.com/csb21jb/TextHarvester.git
+    cd TextHarvester
     ```
 
 2. Install dependencies:
     ```bash
-    pip3 install python-pptx pdfplumber python-docx tqdm colorama textract
+    pip3 install python-pptx pdfplumber python-docx tqdm colorama
     ```
-
+    ```bash
+    pip3 install extract-msg
+    ```
+    ```bash
+    pip3 install textract --no-deps
+    ```
 ## Usage
 
-1. Place the Python script (e.g., `main.py`) in a directory containing the documents you want to extract text from.
+1. Place the Python script (e.g., `TextHarvester.py`) in a directory containing the documents you want to extract text from.
 
 2. Run the Python script:
     ```bash
@@ -47,4 +55,8 @@
 ## Example Output
 
 Here's an example of the expected output structure in the `combined_output.docx` file:
+
+
+https://github.com/csb21jb/TextHarvester/assets/94072917/0803bbfa-6cba-4e71-8090-c05eb95b7d11
+
 
