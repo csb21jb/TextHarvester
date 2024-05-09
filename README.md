@@ -16,7 +16,6 @@
 - Compiles all extracted text into a single organized Word document.
 - Includes robust error handling and logging mechanisms.
 - Progress bar for tracking the extraction process.
-- Automated dependency installation to simplify setup.
 
 ## Installation
 
